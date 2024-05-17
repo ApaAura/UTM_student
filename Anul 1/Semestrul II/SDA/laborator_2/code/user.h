@@ -33,8 +33,8 @@ void ChooseSortMethod(){
     int optiune = 0;
     printf("1. Sortare crescatoare bubbleSort\n"); 
     printf("2. Sortare descrescatoare bubbleSort\n"); 
-    printf("3. Sortare crescatoare mergeSort\n"); 
-    printf("4. Sortare descrescatoare mergeSort\n"); 
+    printf("3. Sortare crescatoare insertionSort\n"); 
+    printf("4. Sortare descrescatoare insertionSort\n"); 
     printf("Alegeti o optiune: "); 
     scanf("%d", &optiune); 
     if (optiune == 1) { 
@@ -42,9 +42,9 @@ void ChooseSortMethod(){
     } else if (optiune == 2) { 
         BubbleSortDescrescator();
     } else if (optiune == 3) {
-        MergeSortCrescator() ;
+        insertionSortCrescator(_cinematografe, nr);
     } else if (optiune == 4) { 
-        void MergeSortDescrescator();
+       insertionSortDescrescator(_cinematografe, nr);
     } else { 
         printf("Optiune invalida!\n"); 
     } 
@@ -52,40 +52,64 @@ void ChooseSortMethod(){
 
 void  BubbleSortCrescator()
 {
-     for (int i = 0; i < nr - 1; i++)
+     int i, j;
+    Cinematograf temp;
+    for (i = 0; i < nr - 1; i++)
     {
-        for (int j = i + 1; j < nr; j++)
+        for (j = 0; j < nr - i - 1; j++)
         {
-            if (_cinematografe[i].numarLocuri < _cinematografe[j].numarLocuri)
+            if (_cinematografe[j].pretBilete > _cinematografe[j + 1].pretBilete)
             {
-                swap(&_cinematografe[i], &_cinematografe[j]);
+                temp = _cinematografe[j];
+                _cinematografe[j] = _cinematografe[j + 1];
+                _cinematografe[j + 1] = temp;
             }
         }
     }
-    printf("Cinematografele au fost sortate crescator dupa numarul de locuri\n");
 }
 
 void  BubbleSortDescrescator()
 {
-    for (int i = 0; i < nr - 1; i++)
+    int i, j;
+    Cinematograf temp;
+    for (i = 0; i < nr - 1; i++)
     {
-        for (int j = i + 1; j < nr; j++)
+        for (j = 0; j < nr - i - 1; j++)
         {
-            if (_cinematografe[i].numarLocuri > _cinematografe[j].numarLocuri)
+            if (_cinematografe[j].pretBilete < _cinematografe[j + 1].pretBilete) 
             {
-                swap(&_cinematografe[i], &_cinematografe[j]);
+                temp = _cinematografe[j];
+                _cinematografe[j] = _cinematografe[j + 1];
+                _cinematografe[j + 1] = temp;
             }
         }
     }
-    printf("Cinematografele au fost sortate descrescator dupa numarul de locuri\n");
 }
 
-void MergeSortCrescator(){
+void insertionSortCrescator(Cinematograf array[], int size) {
+    for (int step = 1; step < size; step++) {
+        Cinematograf key = array[step];
+        int j = step - 1;
 
+        while (j >= 0 && key.pretBilete < array[j].pretBilete) {
+            array[j + 1] = array[j];
+            --j;
+        }
+        array[j + 1] = key;
+    }
 }
 
-void MergeSortDescrescator(){
-    
+void insertionSortDescrescator(Cinematograf array[], int size) {
+    for (int step = 1; step < size; step++) {
+        Cinematograf key = array[step];
+        int j = step - 1;
+
+        while (j >= 0 && key.pretBilete > array[j].pretBilete) {
+            array[j + 1] = array[j];
+            --j;
+        }
+        array[j + 1] = key;
+    }
 }
 
 int userChose = 0;

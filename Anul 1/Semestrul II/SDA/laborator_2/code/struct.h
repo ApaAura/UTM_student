@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-
 typedef struct Cinematograf { 
     char denumirea[50]; 
     char adresa[100]; 
