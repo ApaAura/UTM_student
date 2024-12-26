@@ -1,0 +1,12 @@
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\bin\Debug\net6.0\InputData.deps.json
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\bin\Debug\net6.0\InputData.dll
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\bin\Debug\net6.0\InputData.pdb
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\obj\Debug\net6.0\InputData.csproj.AssemblyReference.cache
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\obj\Debug\net6.0\InputData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\obj\Debug\net6.0\InputData.AssemblyInfoInputs.cache
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\obj\Debug\net6.0\InputData.AssemblyInfo.cs
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\obj\Debug\net6.0\InputData.csproj.CoreCompileInputs.cache
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\obj\Debug\net6.0\InputData.dll
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\obj\Debug\net6.0\refint\InputData.dll
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\obj\Debug\net6.0\InputData.pdb
+C:\Users\Aura\Desktop\Laboratorul_2\InputData\obj\Debug\net6.0\ref\InputData.dll

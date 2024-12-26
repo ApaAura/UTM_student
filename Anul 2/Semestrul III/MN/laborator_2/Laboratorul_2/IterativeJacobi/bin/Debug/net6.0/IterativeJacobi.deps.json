@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "IterativeJacobi/1.0.0": {
+        "dependencies": {
+          "InputData": "1.0.0"
+        },
+        "runtime": {
+          "IterativeJacobi.dll": {}
+        }
+      },
+      "InputData/1.0.0": {
+        "runtime": {
+          "InputData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IterativeJacobi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InputData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\bin\Debug\net6.0\NewtonsMethod(Tangent).exe
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\bin\Debug\net6.0\NewtonsMethod(Tangent).deps.json
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\bin\Debug\net6.0\NewtonsMethod(Tangent).runtimeconfig.json
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\bin\Debug\net6.0\NewtonsMethod(Tangent).dll
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\bin\Debug\net6.0\NewtonsMethod(Tangent).pdb
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\obj\Debug\net6.0\NewtonsMethod(Tangent).csproj.AssemblyReference.cache
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\obj\Debug\net6.0\NewtonsMethod(Tangent).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\obj\Debug\net6.0\NewtonsMethod(Tangent).AssemblyInfoInputs.cache
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\obj\Debug\net6.0\NewtonsMethod(Tangent).AssemblyInfo.cs
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\obj\Debug\net6.0\NewtonsMethod(Tangent).csproj.CoreCompileInputs.cache
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\obj\Debug\net6.0\NewtonsMethod(Tangent).dll
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\obj\Debug\net6.0\refint\NewtonsMethod(Tangent).dll
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\obj\Debug\net6.0\NewtonsMethod(Tangent).pdb
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\obj\Debug\net6.0\NewtonsMethod(Tangent).genruntimeconfig.cache
+C:\Users\Aura\Desktop\Laboratorul_1\NewtonsMethod\obj\Debug\net6.0\ref\NewtonsMethod(Tangent).dll

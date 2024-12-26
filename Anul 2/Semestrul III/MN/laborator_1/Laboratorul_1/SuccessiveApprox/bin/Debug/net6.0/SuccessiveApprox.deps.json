@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SuccessiveApprox/1.0.0": {
+        "dependencies": {
+          "NewtonsMethod(Tangent)": "1.0.0"
+        },
+        "runtime": {
+          "SuccessiveApprox.dll": {}
+        }
+      },
+      "NewtonsMethod(Tangent)/1.0.0": {
+        "runtime": {
+          "NewtonsMethod(Tangent).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SuccessiveApprox/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NewtonsMethod(Tangent)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
