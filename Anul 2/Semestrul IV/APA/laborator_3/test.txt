@@ -1,0 +1,107 @@
+100 defav
+|  Method |      Mean |     Error |    StdDev |    Gen0 | Allocated |
+|-------- |----------:|----------:|----------:|--------:|----------:|
+|   Prims | 11.028 ms | 0.2116 ms | 0.2352 ms | 93.7500 | 827.47 KB |
+| Kruskal |  9.190 ms | 0.1798 ms | 0.2141 ms |       - |  27.47 KB |
+
+100 fav
+|  Method |     Mean |     Error |    StdDev | Allocated |
+|-------- |---------:|----------:|----------:|----------:|
+|   Prims | 9.007 ms | 0.1717 ms | 0.1908 ms |  16.23 KB |
+| Kruskal | 9.041 ms | 0.1805 ms | 0.2471 ms |  21.55 KB |
+
+100 med
+|  Method |     Mean |     Error |    StdDev |    Gen0 | Allocated |
+|-------- |---------:|----------:|----------:|--------:|----------:|
+|   Prims | 9.477 ms | 0.1817 ms | 0.2425 ms | 31.2500 | 285.27 KB |
+| Kruskal | 9.201 ms | 0.1785 ms | 0.2503 ms |       - |  29.85 KB |
+
+200 defav
+|  Method |      Mean |    Error |   StdDev |     Gen0 |  Allocated |
+|-------- |----------:|---------:|---------:|---------:|-----------:|
+|   Prims | 122.21 ms | 1.839 ms | 1.720 ms | 500.0000 | 4512.16 KB |
+| Kruskal |  20.44 ms | 0.407 ms | 1.188 ms |        - |   91.46 KB |
+
+200 fav
+|  Method |     Mean |    Error |   StdDev | Allocated |
+|-------- |---------:|---------:|---------:|----------:|
+|   Prims | 20.07 ms | 0.398 ms | 0.821 ms |  32.66 KB |
+| Kruskal | 19.87 ms | 0.396 ms | 0.860 ms |  44.88 KB |
+
+200 med
+|  Method |     Mean |    Error |   StdDev | Allocated |
+|-------- |---------:|---------:|---------:|----------:|
+|   Prims |       NA |       NA |       NA |         - |
+| Kruskal | 19.72 ms | 0.393 ms | 1.043 ms |   74637 B |
+
+300 defav
+|  Method |      Mean |    Error |    StdDev |      Gen0 |   Allocated |
+|-------- |----------:|---------:|----------:|----------:|------------:|
+|   Prims | 526.93 ms | 9.985 ms | 10.254 ms | 2000.0000 | 17399.62 KB |
+| Kruskal |  29.62 ms | 0.589 ms |  1.093 ms |         - |   162.35 KB |
+
+300 fav
+|  Method |     Mean |    Error |   StdDev | Allocated |
+|-------- |---------:|---------:|---------:|----------:|
+|   Prims | 29.62 ms | 0.579 ms | 0.867 ms |  51.98 KB |
+| Kruskal | 29.42 ms | 0.587 ms | 1.656 ms |  72.65 KB |
+
+300 med
+|  Method |      Mean |    Error |   StdDev |     Gen0 |  Allocated |
+|-------- |----------:|---------:|---------:|---------:|-----------:|
+|   Prims | 264.56 ms | 4.089 ms | 3.825 ms | 500.0000 | 5900.43 KB |
+| Kruskal |  29.86 ms | 0.594 ms | 1.213 ms |        - |  154.02 KB |
+
+350 defav
+|  Method |      Mean |     Error |    StdDev |      Gen0 |   Allocated |
+|-------- |----------:|----------:|----------:|----------:|------------:|
+|   Prims | 887.14 ms | 17.363 ms | 17.053 ms | 2000.0000 | 22527.67 KB |
+| Kruskal |  32.30 ms |  0.547 ms |  0.511 ms |         - |    230.4 KB |
+
+350 fav
+|  Method |     Mean |    Error |   StdDev | Allocated |
+|-------- |---------:|---------:|---------:|----------:|
+|   Prims | 31.43 ms | 0.575 ms | 0.510 ms |  58.62 KB |
+| Kruskal | 31.80 ms | 0.602 ms | 0.591 ms |  83.01 KB |
+
+350 med
+|  Method |      Mean |    Error |   StdDev |      Gen0 |  Allocated |
+|-------- |----------:|---------:|---------:|----------:|-----------:|
+|   Prims | 445.49 ms | 7.764 ms | 7.263 ms | 1000.0000 | 9542.85 KB |
+| Kruskal |  32.09 ms | 0.632 ms | 0.984 ms |         - |   198.4 KB |
+
+400 defav
+|  Method |        Mean |     Error |    StdDev |      Gen0 |   Allocated |
+|-------- |------------:|----------:|----------:|----------:|------------:|
+|   Prims | 1,499.09 ms | 19.965 ms | 16.672 ms | 3000.0000 | 32770.86 KB |
+| Kruskal |    39.05 ms |  0.779 ms |  2.106 ms |         - |   288.33 KB |
+
+400 fav
+|  Method |     Mean |    Error |   StdDev | Allocated |
+|-------- |---------:|---------:|---------:|----------:|
+|   Prims | 36.95 ms | 0.712 ms | 0.848 ms |   65.3 KB |
+| Kruskal | 36.42 ms | 0.684 ms | 0.640 ms |  92.72 KB |
+
+400 med
+|  Method |      Mean |     Error |    StdDev |      Gen0 |   Allocated |
+|-------- |----------:|----------:|----------:|----------:|------------:|
+|   Prims | 726.62 ms | 13.860 ms | 13.612 ms | 1000.0000 | 12641.61 KB |
+| Kruskal |  37.13 ms |  0.736 ms |  1.007 ms |         - |   258.44 KB |
+
+500 defav
+|  Method |        Mean |     Error |    StdDev |      Gen0 |      Gen1 |      Gen2 |   Allocated |
+|-------- |------------:|----------:|----------:|----------:|----------:|----------:|------------:|
+|   Prims | 3,385.42 ms | 42.775 ms | 40.011 ms | 7000.0000 | 3000.0000 | 2000.0000 | 56352.13 KB |
+| Kruskal |    45.96 ms |  0.689 ms |  0.645 ms |         - |         - |         - |   399.32 KB |
+
+500 fav
+|  Method |     Mean |    Error |   StdDev | Allocated |
+|-------- |---------:|---------:|---------:|----------:|
+|   Prims | 45.97 ms | 0.904 ms | 1.005 ms |  78.55 KB |
+| Kruskal | 45.27 ms | 0.558 ms | 0.495 ms | 110.84 KB |
+
+500 med
+|  Method |        Mean |     Error |    StdDev |      Gen0 |   Allocated |
+|-------- |------------:|----------:|----------:|----------:|------------:|
+|   Prims | 1,640.29 ms | 25.869 ms | 24.198 ms | 2000.0000 | 19658.66 KB |
+| Kruskal |    46.61 ms |  0.911 ms |  1.306 ms |         - |   375.09 KB |
