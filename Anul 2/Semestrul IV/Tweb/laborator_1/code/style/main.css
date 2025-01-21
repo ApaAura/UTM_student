@@ -1,0 +1,151 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.bar {
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.bar-item {
+  padding: 12px 16px;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.bar-item:hover {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.bar-item.w3-red {
+  background-color: #f44336;
+  color: #fff;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+header .w3-display-left {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+#rooms {
+  padding: 24px 16px;
+  background-color: #fff;
+  margin-top: 16px;
+}
+
+.room-card {
+  margin-bottom: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.room-card img {
+  width: 100%;
+  height: auto;
+}
+
+.room-card .w3-container {
+  padding: 16px;
+}
+
+.room-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.room-card h6 {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.room-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.room-card button:hover {
+  background-color: #444;
+}
+
+footer {
+  padding: 24px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+footer .w3-xlarge i {
+  margin: 0 8px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer .w3-xlarge i:hover {
+  color: #ddd;
+}
