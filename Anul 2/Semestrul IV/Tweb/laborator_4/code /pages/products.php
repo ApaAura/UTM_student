@@ -1,3 +1,5 @@
+<?php include 'data/products.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -219,207 +221,69 @@
     </div>
   </header>
 
-  <section id="latest-blog" class="pb-5 pt-2">
+
+  <section class="py-5 overflow-hidden">
     <div class="container-fluid">
       <div class="row">
-        <div class="section-header d-flex align-items-center justify-content-between my-5">
-          <h2 class="section-title"> Blog</h2>
-          <button id="add-card-btn" class="btn btn-warning text-white" data-bs-toggle="modal"
-            data-bs-target="#addCardModal">
-            Adaugă articol
-          </button>
+        <div class="col-md-12">
 
-          <div class="modal fade" id="addCardModal" tabindex="-1" aria-labelledby="addCardModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <form id="card-form">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="addCardModalLabel">Adaugă articol</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Închide"></button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="mb-3">
-                      <label for="card-title" class="form-label">Titlu</label>
-                      <input type="text" class="form-control" id="card-title" required>
-                    </div>
-                    <div class="mb-3">
-                      <label for="card-description" class="form-label">Descriere</label>
-                      <textarea class="form-control" id="card-description" rows="3" required></textarea>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="submit" class="btn btn-success">Salvează</button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Anulează</button>
-                  </div>
-                </form>
+          <div class="section-header d-flex justify-content-between">
+
+            <h2 class="section-title">Just arrived</h2>
+
+            <div class="d-flex align-items-center">
+              <a href="#" class="btn-link text-decoration-none">View All Products →</a>
+              <div class="swiper-buttons">
+                <button class="swiper-prev products-carousel-prev btn btn-primary">❮</button>
+                <button class="swiper-next products-carousel-next btn btn-primary">❯</button>
               </div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
-      <div class="row" id="blog-cards-container">
-        <div class="col-md-4">
-          <article class="post-item card border-0 shadow-sm p-3">
-            <div class="image-holder zoom-effect">
-              <a href="#">
-                <img src="../images/post-thumb-1.jpg" alt="post" class="card-img-top">
-              </a>
-            </div>
-            <div class="card-body">
-              <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
-                <div class="meta-date"><svg width="16" height="16">
-                    <use xlink:href="#calendar"></use>
-                  </svg>22 Aug 2021</div>
-                <div class="meta-categories"><svg width="16" height="16">
-                    <use xlink:href="#category"></use>
-                  </svg>tips & tricks</div>
-              </div>
-              <div class="post-header">
-                <h3 class="post-title">
-                  <a href="#" class="text-decoration-none">Top 10 casual look ideas to dress up your kids</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec
-                  quam. A in arcu, hendrerit neque dolor morbi...</p>
-              </div>
-            </div>
-          </article>
-        </div>
-        <div class="col-md-4">
-          <article class="post-item card border-0 shadow-sm p-3">
-            <div class="image-holder zoom-effect">
-              <a href="#">
-                <img src="../images/post-thumb-2.jpg" alt="post" class="card-img-top">
-              </a>
-            </div>
-            <div class="card-body">
-              <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
-                <div class="meta-date"><svg width="16" height="16">
-                    <use xlink:href="#calendar"></use>
-                  </svg>25 Aug 2021</div>
-                <div class="meta-categories"><svg width="16" height="16">
-                    <use xlink:href="#category"></use>
-                  </svg>trending</div>
-              </div>
-              <div class="post-header">
-                <h3 class="post-title">
-                  <a href="#" class="text-decoration-none">Latest trends of wearing street wears supremely</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec
-                  quam. A in arcu, hendrerit neque dolor morbi...</p>
-              </div>
-            </div>
-          </article>
-        </div>
-        <div class="col-md-4">
-          <article class="post-item card border-0 shadow-sm p-3">
-            <div class="image-holder zoom-effect">
-              <a href="#">
-                <img src="../images/post-thumb-3.jpg" alt="post" class="card-img-top">
-              </a>
-            </div>
-            <div class="card-body">
-              <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
-                <div class="meta-date"><svg width="16" height="16">
-                    <use xlink:href="#calendar"></use>
-                  </svg>28 Aug 2021</div>
-                <div class="meta-categories"><svg width="16" height="16">
-                    <use xlink:href="#category"></use>
-                  </svg>inspiration</div>
-              </div>
-              <div class="post-header">
-                <h3 class="post-title">
-                  <a href="#" class="text-decoration-none">10 Different Types of comfortable clothes ideas for women</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec
-                  quam. A in arcu, hendrerit neque dolor morbi...</p>
-              </div>
-            </div>
-          </article>
-        </div>
+      <div class="row">
+        <div class="col-md-12">
 
-        <div class="col-md-4">
-          <article class="post-item card border-0 shadow-sm p-3">
-            <div class="image-holder zoom-effect">
-              <a href="#">
-                <img src="../images/post-thumb-2.jpg" alt="post" class="card-img-top">
-              </a>
-            </div>
-            <div class="card-body">
-              <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
-                <div class="meta-date"><svg width="16" height="16">
-                    <use xlink:href="#calendar"></use>
-                  </svg>25 Aug 2021</div>
-                <div class="meta-categories"><svg width="16" height="16">
-                    <use xlink:href="#category"></use>
-                  </svg>trending</div>
+          <section class="py-5 overflow-hidden">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="section-title">Just arrived</h2>
+                </div>
               </div>
-              <div class="post-header">
-                <h3 class="post-title">
-                  <a href="#" class="text-decoration-none">Latest trends of wearing street wears supremely</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec
-                  quam. A in arcu, hendrerit neque dolor morbi...</p>
-              </div>
-            </div>
-          </article>
-        </div>
-        <div class="col-md-4">
-          <article class="post-item card border-0 shadow-sm p-3">
-            <div class="image-holder zoom-effect">
-              <a href="#">
-                <img src="../images/post-thumb-3.jpg" alt="post" class="card-img-top">
-              </a>
-            </div>
-            <div class="card-body">
-              <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
-                <div class="meta-date"><svg width="16" height="16">
-                    <use xlink:href="#calendar"></use>
-                  </svg>28 Aug 2021</div>
-                <div class="meta-categories"><svg width="16" height="16">
-                    <use xlink:href="#category"></use>
-                  </svg>inspiration</div>
-              </div>
-              <div class="post-header">
-                <h3 class="post-title">
-                  <a href="#" class="text-decoration-none">10 Different Types of comfortable clothes ideas for women</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec
-                  quam. A in arcu, hendrerit neque dolor morbi...</p>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="products-carousel swiper">
+                    <div class="swiper-wrapper">
+                      <?php foreach ($products as $product): ?>
+                        <div class="product-item swiper-slide">
+                          <figure>
+                            <a href="product.php?id=<?= $product['id'] ?>" title="<?= $product['title'] ?>">
+                              <img src="<?= $product['image'] ?>" class="tab-image">
+                            </a>
+                          </figure>
+                          <h3><?= $product['title'] ?></h3>
+                          <span class="qty"><?= $product['qty'] ?></span>
+                          <span class="rating">⭐ <?= $product['rating'] ?></span>
+                          <span class="price">$<?= $product['price'] ?></span>
+                          <div class="d-flex justify-content-between">
+                            <a href="product.php?id=<?= $product['id'] ?>" class="nav-link">Vezi detalii</a>
+                          </div>
+                        </div>
+                      <?php endforeach; ?>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </article>
-        </div>
-        <div class="col-md-4">
-          <article class="post-item card border-0 shadow-sm p-3">
-            <div class="image-holder zoom-effect">
-              <a href="#">
-                <img src="../images/post-thumb-1.jpg" alt="post" class="card-img-top">
-              </a>
-            </div>
-            <div class="card-body">
-              <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
-                <div class="meta-date"><svg width="16" height="16">
-                    <use xlink:href="#calendar"></use>
-                  </svg>22 Aug 2021</div>
-                <div class="meta-categories"><svg width="16" height="16">
-                    <use xlink:href="#category"></use>
-                  </svg>tips & tricks</div>
-              </div>
-              <div class="post-header">
-                <h3 class="post-title">
-                  <a href="#" class="text-decoration-none">Top 10 casual look ideas to dress up your kids</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec
-                  quam. A in arcu, hendrerit neque dolor morbi...</p>
-              </div>
-            </div>
-          </article>
+          </section>
+
         </div>
       </div>
     </div>
   </section>
+
 
   <section class="py-5">
     <div class="container-fluid">
@@ -535,56 +399,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script>
-    const form = document.getElementById('card-form');
-    const modalEl = document.getElementById('addCardModal');
-    const cardsContainer = document.getElementById('blog-cards-container');
-
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-
-      const title = document.getElementById('card-title').value.trim();
-      const description = document.getElementById('card-description').value.trim();
-
-      const newCardHTML = `
-    <div class="col-md-4">
-      <article class="post-item card border-0 shadow-sm p-3">
-        <div class="image-holder zoom-effect">
-          <a href="#">
-            <img src="../images/post-thumb-1.jpg" alt="post" class="card-img-top">
-          </a>
-        </div>
-        <div class="card-body">
-          <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
-            <div class="meta-date"><svg width="16" height="16"><use xlink:href="#calendar"></use></svg>${new Date().toLocaleDateString()}</div>
-            <div class="meta-categories"><svg width="16" height="16"><use xlink:href="#category"></use></svg>custom</div>
-          </div>
-          <div class="post-header">
-            <h3 class="post-title">
-              <a href="#" class="text-decoration-none">${title}</a>
-            </h3>
-            <p>${description}</p>
-          </div>
-        </div>
-      </article>
-    </div>
-  `;
-
-      cardsContainer.insertAdjacentHTML('beforeend', newCardHTML);
-
-      form.reset();
-
-      const modalInstance = bootstrap.Modal.getOrCreateInstance(modalEl);
-      modalInstance.hide();
-    });
-
-    modalEl.addEventListener('hidden.bs.modal', () => {
-      document.querySelectorAll('.modal-backdrop').forEach(el => el.remove());
-      document.body.classList.remove('modal-open');
-      document.body.style.removeProperty('padding-right');
-      document.body.style.overflow = 'auto';
-    });
-  </script>
 </body>
 
 </html>
