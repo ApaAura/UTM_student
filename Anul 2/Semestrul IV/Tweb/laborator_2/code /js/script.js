@@ -133,7 +133,6 @@
 
   }
 
-  // init jarallax parallax
   var initJarallax = function () {
     jarallax(document.querySelectorAll(".jarallax"));
 
@@ -142,7 +141,6 @@
     });
   }
 
-  // document ready
   $(document).ready(function () {
 
     initPreloader();
@@ -151,7 +149,7 @@
     initJarallax();
     initChocolat();
 
-  }); // End of a document
+  }); 
 
 })(jQuery);
 
